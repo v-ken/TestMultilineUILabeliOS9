@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header" id="U6b-Vx-4bR" customClass="TestHeaderCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tx-Xz-mz2">
+                    <rect key="frame" x="8" y="14" width="304" height="13.5"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.49131567549999999" green="0.71462365409999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="7tx-Xz-mz2" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="14" id="6Uh-2C-tbs"/>
+                <constraint firstItem="7tx-Xz-mz2" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="8" id="FwA-Ue-fZh"/>
+                <constraint firstAttribute="trailing" secondItem="7tx-Xz-mz2" secondAttribute="trailing" constant="8" id="qiO-jf-Qjh"/>
+            </constraints>
+            <connections>
+                <outlet property="label" destination="7tx-Xz-mz2" id="Nfa-bp-e4J"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="384"/>
+        </collectionReusableView>
+    </objects>
+</document>
