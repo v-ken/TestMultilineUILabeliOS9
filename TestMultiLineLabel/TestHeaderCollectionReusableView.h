@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TestHeaderCollectionReusableView : UICollectionReusableView
-
+- (void)setText:(NSString *)text;
 @end

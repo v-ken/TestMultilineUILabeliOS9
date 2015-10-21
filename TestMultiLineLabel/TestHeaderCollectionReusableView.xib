@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
@@ -10,10 +11,10 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tx-Xz-mz2">
-                    <rect key="frame" x="8" y="14" width="304" height="13.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tx-Xz-mz2">
+                    <rect key="frame" x="8" y="14" width="304" height="17"/>
                     <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -23,12 +24,13 @@
             <constraints>
                 <constraint firstItem="7tx-Xz-mz2" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="14" id="6Uh-2C-tbs"/>
                 <constraint firstItem="7tx-Xz-mz2" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="8" id="FwA-Ue-fZh"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7tx-Xz-mz2" secondAttribute="bottom" constant="8" id="ICk-lP-neV"/>
                 <constraint firstAttribute="trailing" secondItem="7tx-Xz-mz2" secondAttribute="trailing" constant="8" id="qiO-jf-Qjh"/>
             </constraints>
             <connections>
                 <outlet property="label" destination="7tx-Xz-mz2" id="Nfa-bp-e4J"/>
             </connections>
-            <point key="canvasLocation" x="247" y="384"/>
+            <point key="canvasLocation" x="90" y="439"/>
         </collectionReusableView>
     </objects>
 </document>
