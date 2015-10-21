@@ -18,6 +18,11 @@
     // Initialization code
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    self.label.preferredMaxLayoutWidth = self.label.frame.size.width;
+}
+
 - (void)setText:(NSString *)text {
     self.label.text = text;
 }
